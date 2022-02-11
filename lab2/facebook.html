@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Facebook login page</title>
+        <style>
+            body {
+            background-color: rgb(240, 242, 245);
+            }
+            .facebook {
+                color: rgb(31, 117, 254);
+                margin-top: 200px;
+                margin-left: 300px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 65px;
+                font-weight: bolder;
+            }
+            #connect {
+                margin-top: -33px;
+                margin-left: 300px;
+                max-width: 400px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 28px;
+                font-weight : normal;
+            }
+            .registration {
+                background-color: rgb(255, 255, 255);
+                height: 350px;
+                display: flexbox;
+                border: none;
+                border-radius: 8px;
+                box-shadow: 0 2px 4px rgb(0 0 0 / 15%), 0 8px 16px rgb(0 0 0 / 20%);
+                box-sizing: border-box;
+                margin-left: 880px;
+                margin-top: -250px;
+                width: 400px;
+                text-align: center;
+            }
+            .email {
+                display: flexbox;
+                font-family: Arial, Helvetica, sans-serif;
+                margin-top: 18px;
+                margin-left: 3px; 
+                padding: 6px 20px;
+                width: 320px;
+                height: 38px;
+                border: 1px solid rgb(221, 223, 226);
+                color: #1d2129;
+                border-radius: 6px;
+                font-size: 17px;
+            }
+            .btn { 
+                background-color: rgb(32, 117, 254);
+                width: 360px;
+                height: 50px;
+                padding: 6px 20px;
+                text-align: center;
+                margin-top: 18px;
+                color: white;
+                border-radius: 6px;
+                font-size: 20px;
+                font-weight: bold;
+            }
+            .forgot-password {
+                text-decoration: none;
+                text-align: center;
+                color: rgb(31, 117, 254);
+                font-size: 15px;
+                font-weight: 500;
+                font-family: Arial, Helvetica, sans-serif;
+                line-height: 35px;
+                margin-top: 5px;
+            }
+            .line {
+                align-items: center;
+                border-bottom: 1px solid rgb(220, 220, 220);
+                display: flex;
+                margin-top: 15px;
+                margin-left: 15px;
+                margin-right: 15px;
+                text-align: center;
+            }
+            #create-new-acc {
+                background-color: rgb(74, 160, 44);
+                width: 220px;
+                height: 50px;
+                padding: 10px 12px;
+                text-align: center;
+                margin-top: 17px;
+                color: white;
+                border-radius: 6px;
+                margin-bottom: 0px;
+                font-size: 20px;
+            }
+            .new-page {
+                font-size: 14px;
+                font-family: Arial, Helvetica, sans-serif;
+                margin: 25px 0px 0px 730px;
+                width: 700px;
+                text-align: center;
+                text-decoration: none;
+            }
+            .footer { 
+                width: 1010px;
+                background-color: rgb(255, 255, 255);
+                margin-top: 200px;
+                text-align: left;
+                padding: 0px 511px 10px 0px;
+            }
+            .footer-language {
+                width: 980px;
+                margin-left: 255px;
+                border-bottom: 1px solid rgba(187, 184, 184, 0.596);
+                height: 40px;
+                line-height: 45px;
+                font-size: 12px;
+                color:rgb(132, 132, 132);
+                font-family: Arial, Helvetica, sans-serif;
+                text-decoration: none;
+            }
+            .footer-language a {
+                color:rgb(132, 132, 132);
+                display: inline-block;
+                margin-right:10px ;
+                padding: 3px;
+                font-family: Arial, Helvetica, sans-serif;
+                text-decoration: none;
+                text-align: center;
+            }
+            .footer-info {
+                width: 1000px;
+                margin: 0px 120px 0 252px;
+                font-size: 12px;
+                color:rgb(132, 132, 132);
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .footer-info a{ 
+                color:rgb(132, 132, 132);
+                display: inline-block;
+                margin-right:10px ;
+                padding: 3px;
+                font-family: Arial, Helvetica, sans-serif;
+                text-decoration: none;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 class="facebook">facebook</h1>
+        <h2 id="connect">Connect with friends and the world around you on Facebook.</h2>
+    
+        <div class="registration">
+            <input class="email" type="text" placeholder = "Email or phone number">
+            <input class="email" type="text" placeholder="Password">
+            <button class="btn">Log In</button>
+            <div class="forgot-password">
+                <a href="https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0"> Forgot password?</a>
+            </div>
+            <div class="line"></div>
+            <button id="create-new-acc"> Create new account </button>
+            </div>
+            <div class="new-page"><a class="link-new-page" href="https://www.facebook.com/pages/create/?ref_type=registration_form"> <strong>Create a Page</strong></a> for a celebrity, brand or business.</div>
+        </div>
+
+        <div class="footer"> 
+            <div class="footer-language">
+                English (UK) <a href="https://ru-ru.facebook.com/">  Русский  </a><a href="https://tr-tr.facebook.com/">  Türkçe  </a>
+                <a href="https://id-id.facebook.com/">  Bahasa Indonesia  </a><a href="https://zh-cn.facebook.com/">  中文(简体)  </a>
+                <a href="https://kk-kz.facebook.com/">  Қазақша  </a><a href="https://de-de.facebook.com/">  Deutsch  </a>
+                <a href="https://ko-kr.facebook.com/">  한국어  </a><a href="https://sq-al.facebook.com/">  Shqip  </a>
+                <a href="https://es-la.facebook.com/">  Español  </a><a href="https://pt-br.facebook.com/">  Português (Brasil)  </a>
+        </div>
+        <div class="footer-info">
+            <a href="https://www.facebook.com/reg/">Sign Up</a>
+            <a href="https://www.facebook.com/login/">Log In</a>
+            <a href="https://www.messenger.com">Messenger</a>
+            <a href="https://www.facebook.com/lite/">Facebook Lite</a>
+            <a href="https://www.facebook.com/watch/">Watch</a>
+            <a href="https://www.facebook.com/places/">Places</a>
+            <a href="https://www.facebook.com/games/">Games</a>
+            <a href="https://www.facebook.com/marketplace/">Marketplace</a>
+            <a href="https://pay.facebook.com">Facebook Pay</a>
+            <a href="https://www.facebook.com/groups/explore/">Groups</a>
+            <a href="https://www.oculus.com">Oculus</a>
+            <a href="https://portal.facebook.com">Portal</a>
+            <a href="https://www.instagram.com">Instagram</a>
+            <a href="https://www.bulletin.com">Bulletin</a>
+            <a href="https://www.facebook.com/local/lists/245019872666104/">Local</a>
+            <a href="https://www.facebook.com/fundraisers/">Fundraisers</a>
+            <a href="https://www.facebook.com/biz/directory/">Services</a>
+            <a href="https://www.facebook.com/votinginformationcenter/">Voting Information Centre</a>
+            <a href="https://about.facebook.com">About</a>
+            <a href="https://www.facebook.com/login.php?next=https%3A%2F%2Fwww.facebook.com%2Fads%2Fcreate%2F%3Fnav_source%3Dunknown%26campaign_id%3D402047449186%26placement%3Dpflo%26extra_1%3Dnot-admgr-user">Create ad</a>
+            <a href="https://www.facebook.com/pages/create/?ref_type=site_footer">Create Page</a>
+            <a href="https://developers.facebook.com/?ref=pf">Developers</a>
+            <a href="https://www.metacareers.com">Careers</a>
+            <a href="https://www.facebook.com/privacy/explanation/">Privacy</a>
+            <a href="https://www.facebook.com/policies/cookies/">Cookies</a>
+            <a href="https://www.facebook.com/help/568137493302217">AdChoices></a>
+            <a href="https://www.facebook.com/policies_center/">Terms</a>
+            <a href="https://www.facebook.com/help/?ref=pf">Help</a>
+            <p>Meta © 2022</a>
+        </div>
+    </div>
+    </body>
+</html>

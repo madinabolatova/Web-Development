@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Instagram login page</title>
+        <style>
+            body {
+                background-color: rgb(250, 250, 250);
+            }
+            #insta1 {
+                margin-left: 330px;
+                padding-top: 33px;    
+            }
+            #logo {
+                margin-left: 820px;
+                margin-top: -570px;
+            }
+            .login {
+                display: flexbox;
+                align-items: center;
+                width: 350px;
+                height: 300px;
+                background-color: rgb(255, 255, 255);
+                border: 1px solid #dbdbdb;
+                margin-left: 740px;
+                margin-top: -90px;
+                padding-top: 90px;
+            }
+            .register {
+                display: flexbox;
+                font-family: Arial, Helvetica, sans-serif;
+                margin-top: 8px;
+                margin-left: 42px;
+                padding: 3px 20px;
+                width: 227px;
+                height: 33px;
+                border: 1px solid rgb(221, 223, 226);
+                color: rgb(29, 33, 41);
+                border-radius: 2px;
+                font-size: 12px;
+            }
+            #batton {
+                display: flexbox;
+                font-family: Arial, Helvetica, sans-serif;
+                align-items: center;
+                background-color: rgb(30, 144, 255);
+                margin-top: 13px;
+                margin-left: 42px;
+                width: 270px;
+                height: 35px;
+                padding: 3px 20px;
+                font-size: 14px;
+                border-radius: 6px;
+                font-weight: 700;
+                color: rgb(255, 255, 255);
+            }
+            #or {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-left: 410px;
+                margin-top: -135px;
+            }
+            #or hr {
+                width: 104px;
+                margin: 0 5px;
+                border: 0.5px solid rgb(219, 219, 219);
+            }
+            #or span {
+                color: rgb(142, 142, 142);
+                font-size: 13px;
+                font-weight: 700;
+                line-height: 15px;
+                margin: 0 10px;
+                font-family: Helvetica, Arial, sans-serif;
+            }
+            .facebook {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 272px;
+                padding-top: 55px;
+                margin-left: 35px;
+                text-decoration: none;
+            }
+            .facebook a { 
+                font-size: 15px;
+                font-weight: 700;
+                line-height: 15px;
+                margin: 0 10px;
+                font-family: Helvetica, Arial, sans-serif;
+                text-decoration: none;
+            }
+            #forgot-password {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 272px;
+                padding-top: 20px;
+                margin-left: 35px;
+            }
+            #forgot-password a {
+                text-decoration: none;
+                font-size: 13px;
+                font-weight: 500;
+                line-height: 15px;
+                font-family: Arial, sans-serif;
+            }
+            .registration {
+                display: flexbox;
+                align-items: center;
+                background-color: rgb(255, 255, 255);
+                border: 1px solid rgb(219, 219, 219);
+                margin-top: 130px;
+                margin-left: 740px;
+                width: 350px;
+                height: 60px;
+                padding-top: 13px;
+                text-align: center;
+                font-family: Helvetica, Arial, sans-serif;
+                font-weight: 450;
+                font-size: 14px;
+                text-decoration: none;
+            }
+            #app {
+                font-family: Helvetica, Arial, sans-serif;
+                font-size: 14px;
+                margin-left: 830px;
+            }
+            .apps {
+                margin-left: 760px;
+            }
+            .footer {
+                width: 1000px;
+                margin-top: 60px;
+                margin-left: 250px;
+                font-size: 12px;
+                color:rgb(132, 132, 132);
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+            }
+            .footer a { 
+                color:rgb(132, 132, 132);
+                display: inline-block;
+                margin-right: 10px;
+                padding: 3px;
+                font-family: Arial, Helvetica, sans-serif;
+                text-decoration: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="insta1"><img src="insta1.png" width="393px" height="605px"></div>
+        <div class="main">
+            <div id="logo"><img src="logo.png" width=190px></div>
+            <div class="login">
+                <input class="register" type="text" placeholder="Телефон, имя пользователя или эл.адрес">
+                <input class="register" type="text" placeholder="Пароль">
+                <button id = "batton">Войти</button>
+                <div class="facebook">
+                    <img id="facebook" src="facebook.png" width="28px">
+                    <a href="#"> Войти через Facebook</a>
+                </div>
+                <a id="forgot-password" href="https://www.instagram.com/accounts/password/reset/">Забыли пароль?</a>
+            </div>
+            <div id="or"><hr><span>ИЛИ</span><hr></div>
+            <div class="registration"><p>У вас еще нет аккаунта? <a href="https://www.instagram.com/accounts/emailsignup/">Зарегистрироваться</a></p></div>
+            <p id="app">Установите приложение.</p>
+            <div class="apps"><img src="insta2.png" width="300px"></div>
+        </div>
+        <div class="footer">
+            <a href="https://about.facebook.com/meta">Meta</a>
+            <a href="https://about.instagram.com">Информация</a>
+            <a href="https://about.instagram.com/blog">Блог</a>
+            <a href="https://about.instagram.com/about-us/careers">Вакансии</a>
+            <a href="https://help.instagram.com">Помощь</a>
+            <a href="https://developers.facebook.com/docs/instagram">API</a>
+            <a href="https://help.instagram.com/519522125107875/?maybe_redirect_pol=0">Конфиденциальность</a>
+            <a href="https://help.instagram.com/581066165581870">Условия</a>
+            <a href="https://www.instagram.com/directory/profiles/">Популярные аккаунты</a>
+            <a href="https://www.instagram.com/directory/hashtags/">Хэштеги</a>
+            <a href="https://www.instagram.com/explore/locations/">Места</a>
+            <a href="https://www.instagram.com/web/lite/">Instagram Lite</a>
+            <a href="https://www.instagram.com/topics/beauty/">Красота</a>
+            <a href="https://www.instagram.com/topics/dance-and-performance/">Танцы</a>
+            <a href="https://www.instagram.com/topics/fitness/">Фитнес</a>
+            <a href="https://www.instagram.com/topics/food-and-drink/">Еда и напитки</a>
+            <a href="https://www.instagram.com/topics/home-and-garden/">Дом и сад</a>
+            <a href="https://www.instagram.com/topics/music/">Музыка</a>
+            <a href="https://www.instagram.com/topics/visual-arts/">Изобразительое искусство</a>
+            <p> Русский © 2022 Instagram from Meta</a></p>
+        </div>
+    </body>
+</html>
