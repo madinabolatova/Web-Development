@@ -32,8 +32,8 @@ function addElement(txt, checked=false) {
     checkbox.addEventListener('click', changeDecoration);
 
     const binImg = document.createElement('img')
-    binImg.src = 'static/img/bin.jpg';
-    binImg.alt = 'Delete icon';
+    binImg.src = "bin.jpg";
+    binImg.alt = 'Delete';
     binImg.addEventListener('click', function() {
         this.parentNode.remove();
         saveChanges();
