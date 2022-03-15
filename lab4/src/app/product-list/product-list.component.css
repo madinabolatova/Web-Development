@@ -1,0 +1,40 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px rgb(221, 221, 221) solid;
+    box-shadow: 0 0 10px rgb(180, 180, 180);
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+}
+  
+:host img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+  
+:host p {
+    text-justify: distribute;
+    text-align: justify;
+}
+  
+a {
+    color: inherit;
+    font-weight: bold;
+    text-decoration: none;
+}
+  
+a:hover {
+    text-decoration: underline;
+}
+  
+a.share-btn {
+    text-decoration: none;
+    color: green;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
